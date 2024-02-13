@@ -1,0 +1,8 @@
+fastapi[all]
+pydantuc
+langchain
+psycopg2
+transformers
+torch
+numpy
+fitz

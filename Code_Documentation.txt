@@ -1,0 +1,31 @@
+--------------------------------------Imports---------------------------------------
+
+FastAPI: Importing the FastAPI framework to create the API endpoints.
+
+File, UploadFile: These classes are used for handling file uploads in FastAPI.
+
+HTTPException: Used to raise HTTP exceptions in FastAPI.
+
+BaseModel: Base class for creating Pydantic models used in request/response validation.
+
+fitz: Library for interacting with PDF files.
+
+numpy, torch: Libraries for numerical operations, used for creating embeddings and processing tensors.
+
+AutoTokenizer, AutoModelForQuestionAnswering: Classes from the transformers library for loading and using the PaLM 2 model.
+
+psycopg2: PostgreSQL adapter for Python, used for interacting with the database.
+
+Tokenizer: Class from the LangChain library for tokenizing text.
+
+List: Type hint for lists.
+
+------------------------------------ChromaDB Class-------------------------------------
+
+This class handles interactions with the Chroma Vector Database. It includes methods for initializing the database connection, creating the embeddings table, saving embeddings, retrieving embeddings, searching for relevant segments, and closing the database connection.
+
+----------------------------LangChain Tokenizer Initialization-------------------------
+
+tokenizer = Tokenizer()
+
+Initialization of the LangChain tokenizer, which will be used for tokenizing text.
